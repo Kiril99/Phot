@@ -179,8 +179,14 @@ li a:hover{
 			margin-top: 50px;
 
 		}
-	}	
+	}
 
+.Map{
+	width: 100%;	
+}
+.Map img{
+	width: 100%;
+}
 
 
 
