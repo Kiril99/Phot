@@ -11,24 +11,21 @@ header{
 	justify-content: space-between;
 	align-items: center;
 }
-header h1{
-	font-family: Tahoma;
-	font-size: 40px;
-	color:#808080;
-	margin-left: 5%;
-}
+
+header{
+margin-left: 5%;
+ }
 header h1 a{
 	color:#808080;
 	text-decoration: none;
 	font-family:  Tahoma;
-}
-header a:hover{
-	color: #00BFFF;
+	font-size: 40px;
+	margin-left: 5%;
 }
 nav{
 	margin-right: 5%;
 }
-ul{
+header ul{
 	float: right;
 	display: flex;
 	-webkit-flex-wrap: wrap;
@@ -39,16 +36,15 @@ ul{
 	list-style:none;
 
 }
-ul a{
+header ul a{
 	text-decoration: none;
 	color: #808080;
 }
 
-li{
-	width: 80px;
+header ul li{
+	width: 110px;
 	height: 10px;
-	border-radius: 5px;
-	padding:25px;
+	padding:10px;
 	font-size: 20px;
 	color:#808080;
 	font-family: Tahoma;
@@ -56,15 +52,12 @@ li{
 	justify-content: center;
 	align-items: center;
 }
-li:hover{
+ header ul li a:hover{
 	border-radius: 50px;
-	background-color:#00BFFF;
-
-}
-li a:hover{
+	background:#00BFFF;
 	color: white;
+	padding: 15px;
 }
-
 .back1{
 	width: 100%;
 	height:650px;
@@ -80,7 +73,7 @@ li a:hover{
 
 }
 .back1 h1{
-	font-size: 45px;
+	font-size: 40px;
 	color: white;
 	margin-bottom: 20px;
 }
@@ -88,7 +81,7 @@ li a:hover{
 	text-align: center;
 	margin-bottom: 100px;
 	color: white;
-	font-size: 23px;
+	font-size: 20px;
 	font-family: Tahoma;
 }
 .whiteBox{
@@ -103,11 +96,11 @@ li a:hover{
 .whiteBox h1{
 	font-family: Tahoma;
 	color:#00BFFF;
-	font-size: 50px;
+	font-size: 45px;
 }
 .whiteBox p{
 	font-family: Tahoma;
-	font-size: 23px;
+	font-size: 20px;
 	text-align: center;
 }
 .father{
@@ -119,7 +112,7 @@ li a:hover{
 }
 .h h1{
 	font-family:Tahoma;
-	font-size: 50px;
+	font-size: 40px;
 	color: white;
 }
 
@@ -128,10 +121,11 @@ li a:hover{
 	justify-content: center;
 	flex-wrap: wrap;
 	width: 100%;
+	;
 }
 .ph p{
 	color:white;
-	font-size: 22px;
+	font-size: 20px;
 	margin-left: 50px;
 	font-family: Tahoma;
 	
@@ -178,15 +172,79 @@ li a:hover{
 		.whiteBox p{
 			margin-top: 50px;
 
-		}
 	}
-
-.Map{
-	width: 100%;	
 }
-.Map img{
+.Map{
+	display: flex;
+	justify-content: center;
+	width: 100%
+}
+iframe{
+	width:100%;
+	height: 500px;
+}
+.end{
+	width: 100%;
+	background-color: #4D5656;
+}
+.section{
+	display: flex;
+	justify-content: space-between;
+}
+.faq{
+	width: 35%;
+	margin-left: 7%;
+	
+}
+.faq ul{
+	display: flex;
+}
+.faq a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+.faq li {
+	padding: 15px;
+	list-style:none;	
+	
+}
+.logo{
+	margin-right: 150px;
+	width: 10%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.logo img{
+	margin-top:18px;
+	width: 50px;
+	height: 50px;
+}
+.end hr{
+	color:#A6ACAF;
+	width: 80%;
+}
+.Polici{
 	width: 100%;
 }
+
+.Polici ul {
+	margin-right: 9%;
+	display: flex;
+	justify-content: flex-end;	
+}
+.Polici ul li{
+	padding: 10px;
+	list-style: none;
+	color: #A6ACAF;
+}
+
+
+
+
+
 
 
 
